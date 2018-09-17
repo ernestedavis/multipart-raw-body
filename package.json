@@ -1,0 +1,32 @@
+{
+  "name": "multipart-raw-body",
+  "version": "1.0.0",
+  "description": "NodeJS/Express middleware to capture raw request body",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node ./dist/server.js",
+    "dev": "nodemon",
+    "prod": "npm start"
+  },
+  "author": "@ernestedavis",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "formidable": "^1.2.1",
+    "fs": "0.0.2",
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2",
+    "os": "^0.1.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "@types/formidable": "^1.0.31",
+    "@types/lodash": "^4.14.116",
+    "commander": "^2.18.0",
+    "nodemon": "^1.18.4",
+    "request": "^2.88.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.3"
+  }
+}
